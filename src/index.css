@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Light mode styles */
+  html {
+    @apply bg-white text-black transition-colors duration-300; /* Light background and text */
+  }
+
+  /* Dark mode styles */
+  html.dark {
+    @apply bg-gray-900 text-white; /* Dark background and text */
+  }
+}
