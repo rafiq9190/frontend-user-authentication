@@ -47,7 +47,7 @@ export default function Home() {
       </h2>
       <p className="text-lg font-medium">Frontend</p>
       <p>
-        1:- Clone the project from github and with this command{" "}
+        1:- Clone the project from github and with this command
         <strong>
           git clone https://github.com/rafiq9190/frontend-user-authentication
         </strong>
@@ -58,7 +58,9 @@ export default function Home() {
       </p>
       <p className="mb-3">3:- Then write command "npm run dev"</p>
       <p className="text-lg font-medium">Backend</p>
-      <p>1:- Clone the project from github and with this command</p>
+      <p>1:- Clone the project from github and with this command <strong>
+      git clone https://github.com/rafiq9190/backend-user-authentication.git
+      </strong></p>
       <p>2:-After installing open terminal and write command "npm install"</p>
       <p>3:- Then write command "node server.js"</p>
     </div>
