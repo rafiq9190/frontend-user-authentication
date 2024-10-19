@@ -1,5 +1,6 @@
 # frontend-user-authentication
 ### Clone the project from github 
+### Write change branch command "git checkout master"
 ### After install open terminal and write command "npm install"
 ### Then write command "npm run dev"
 # This project contains following
