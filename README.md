@@ -29,12 +29,13 @@ well, its not easy to choice perfect design.But I did start from search on googl
  AI is like having a reliable friend that helps me quickly find answers. It saves me a lot of time compared to traditional methods, such as searching on Google, opening links one by one, and manually looking for solutions. AI is revolutionizing the way we work and live, so it's essential to embrace it and use it to enhance our productivity and overall work experience.
  
  ### Challenges encountered and how they were resolved
- Well, challenges is a part of every thing and i love to face chanllenges because it force to you for thinking. when a human start thinking then must be find solution. I face many issues in this project but i am happy that many things are recall and learn many new things like JWT encode and decode. In tranditional way, we save info in local storage for future use or any other reason. but I used another techique instead follow trandition way, i decode JWT and complete my task for security reason.
- #### Chanllenge
- I want to redirect user when user register instead of redirect to Home page . I want to redirect to related page base on role.
- so in start i failed many time. Then check login function on backend , its return jwt encode with user info. I did used same technique on register function and handle on frontend side
- #### chanllenge
- when user register or login once i refresh browser . Every thing start from zero. I need to stop it. So i already recevied JWT . I did store it in local storage and check when browser restart then decode it and utilize it on frontend side . Now this issue resolve
- #### chanllenge
- I want to stop duplication of email address in json db. so i did checked my existing user with find function and return massage like user already exist . it will show in network.
- 
+ Challenges are a part of every project, and I enjoy facing them because they push me to think critically. When we start thinking deeply, solutions often follow. I encountered several issues in this project, but I’m grateful for the learning opportunities. I was able to recall important concepts and learn new techniques, such as encoding and decoding JWT. Traditionally, information is stored in local storage for various purposes, but I took a different approach for security reasons by decoding the JWT and completing my task more securely.
+
+### Challenge 1: Role-Based Redirection After Registration
+Initially, I struggled with redirecting users to the appropriate page based on their role after registration, instead of redirecting everyone to the home page. I examined the login function on the backend, which returned a JWT encoded with user information. By applying the same technique to the registration function and managing the JWT on the frontend, I successfully implemented role-based redirection.
+
+### Challenge 2: Persisting User State After Refresh
+When a user logged in or registered, the app reset everything upon refreshing the browser. To solve this, I stored the received JWT in local storage and, upon browser reload, I decoded the token and used the information to maintain the user state on the frontend. This approach resolved the issue.
+
+### Challenge 3: Preventing Duplicate Email Registration
+To avoid duplicate email addresses in the JSON database, I used the find function to check for existing users based on their email addresses. If a match was found, I returned a message like "User already exists," which was visible in the network response, ensuring a clear and secure flow.
