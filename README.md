@@ -7,6 +7,7 @@
 
 ### User role base authentication
 ### Input fields validation
+### strong password injected like one special charater,one number,one alphabet and total length more 8. Else show error
 ### User redirect according to role
 ### Loader on singin and singup button
 ### Tooltip on light and dark mode button in header
