@@ -14,6 +14,10 @@ export default function Home() {
         <li>User redirect according to role</li>
         <li>Loader on singin and singup button</li>
         <li>Tooltip on light and dark mode button in header</li>
+        <li>
+          strong password injected like one special charater,one number,one
+          alphabet and total length more 8. Else show error
+        </li>
         <li>Dark and light Theme configure</li>
         <li>User authentication base JWT</li>
         <li>Mobile responsive</li>
@@ -58,9 +62,12 @@ export default function Home() {
       </p>
       <p className="mb-3">3:- Then write command "npm run dev"</p>
       <p className="text-lg font-medium">Backend</p>
-      <p>1:- Clone the project from github and with this command <strong>
-      git clone https://github.com/rafiq9190/backend-user-authentication.git
-      </strong></p>
+      <p>
+        1:- Clone the project from github and with this command{" "}
+        <strong>
+          git clone https://github.com/rafiq9190/backend-user-authentication.git
+        </strong>
+      </p>
       <p>2:-After installing open terminal and write command "npm install"</p>
       <p>3:- Then write command "node server.js"</p>
     </div>
